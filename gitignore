@@ -1,0 +1,41 @@
+# =====================================================================
+# NEVER commit live samples or raw evidence. Keep this repo to writeups,
+# reports, screenshots (.png/.jpg are allowed), and your own tooling.
+# Need to add a sanitized/benign artifact? Force it with:  git add -f <file>
+# =====================================================================
+
+# Executables / samples
+*.exe
+*.dll
+*.sys
+*.scr
+*.bin
+*.dat
+
+# Memory & disk images
+*.dmp
+*.raw
+*.mem
+*.vmem
+*.E01
+*.001
+*.img
+*.dd
+
+# Captures (may contain payloads)
+*.pcap
+*.pcapng
+
+# Archives (common malware container)
+*.zip
+*.7z
+*.rar
+*.gz
+*.tar
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
